@@ -1,0 +1,50 @@
+<!-- component -->
+<section class="bg-cover bg-center w-full pb-24 pt-6"
+style="background-image: url('{{'assets/img/fondo/fondo.jpg'}}');">
+<!-- <div class="absolute h-[115vh] lg:h-[150vh] inset-0 py-12 bg-black bg-opacity-70 group-hover:opacity-75 transition duration-300 ease-in-out"></div> 
+ --><!-- component -->
+    <div class="flex items-center justify-center min-h-screen p-2 ">
+        <div class="flex flex-col w-full px-6 absolute pt-24 md:px-36 lg:px-48">
+            <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center pb-2">
+                <h3 class="text-center w-[60vw] md:w-[40vw] lg:w-[40vw]">
+                    <a  class=" text-white text-2xl font-bold text-center" >
+                        <span class="absolute inset-0"></span>
+                        <img class="pt-4 h-30 w-full lg:h-48" src="{{ 'assets/img/logo_gatilindigital_conbolitas.png' }}" />
+                        <h2 class="pb-6 text-2xl text-center font-extrabold text-white">Bordadurias 2024</h2>
+                    </a>
+                </h3>
+            </div>
+            <ul class="flex flex-col mt-4 space-y-2 overflow-y-auto" style="height:70vh">
+                @for (bordaduria of filtrarBordadurias(); track bordaduria.id) {
+                    <li class="flex flex-row items-center relative  rounded">
+                        <!-- component bg-gradient-to-r from-sky-400 to-sky-700 hover:from-blue-700 hover:to-blue-900
+                            [style.background]="getDynamicBackground(cofradia.color)"
+                        -->      
+                        <div class="mx-auto container">
+                            <div class="w-full flex justify-center">
+                                <div [style.background-color]="asignarColor(bordaduria.id)" 
+                                    class="bg-gradient-to-r hover:from-amber-400 hover:to-amber-500 w-full p-4">
+                                        <div (click)="selectBordaduria(bordaduria.id)" class="flex flex-wrap items-between md:flex-row flex-col-reverse">
+                                            <div class="md:w-2/3 w-full p-2 flex-col md:block flex items-between justify-between">
+                                                <div>
+                                                    <h2 role="heading" class="text-xl md:text-xl lg:text-2xl xl:text-2xl lg:w-10/12 text-white font-semibold 
+                                                        leading-6 lg:leading-10 md:text-left text-bejustify-between"> {{bordaduria.nombre_bordaduria}} </h2>
+                                                    <div class="col-span-4">
+                                                        <p class="text-white/80"> {{bordaduria.direccion_bordaduria}} </p>
+                                                        <p class="text-white/70 "> {{bordaduria.representante_bordaduria}} </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+
+<a href="/home" class="btn-flotante"><img class="h-10 w-12
+    md:h-16 md:w-24" src="{{ 'assets/img/icos/fle1.png' }}"></a>

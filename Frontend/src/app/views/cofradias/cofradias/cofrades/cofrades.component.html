@@ -1,0 +1,50 @@
+<!-- component -->
+<section class="bg-cover bg-center w-full pb-4 pt-4"
+style="background-image: url('{{'assets/img/fondo/fondo.jpg'}}');">
+<!-- <div class="absolute h-[115vh] lg:h-[150vh] inset-0 py-12 bg-black bg-opacity-70 group-hover:opacity-75 transition duration-300 ease-in-out"></div> 
+ --> <!-- component -->
+    <div class="flex items-center justify-center min-h-screen ">
+        <div class="flex flex-col max-w-4xl mx-auto overflow-hidden text-black rounded-lg shadow-lg absolute p-5 py-4">
+            <section class="min-h-screen px-6">
+                <div class="flex flex-col">
+                    <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center ">
+                        <h3 class="text-center w-[60vw] md:w-[40vw] lg:w-[40vw]">
+                            <a href="#" class=" text-white text-2xl font-bold text-center" >
+                                <span class="absolute inset-0"></span>
+                                <h2 class="mt-12 pb-4 text-2xl text-center font-extrabold ">Cofrades</h2>
+                            </a>
+                        </h3>
+                    </div>
+        
+                    <main class="mb-12 px-2 overflow-y-auto"  style="height:80vh">
+                        @if (cofrades && cofrades.length > 0){
+                            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 
+                                        bg-white px-4 py-6 rounded-md xl:grid-cols-5 2xl:grid-cols-6 gap-4
+                                         ">
+                            @for (cofrade of cofrades; track cofrade.nombre_cofrade) {
+                            <a  class="flex flex-col items-center justify-center text-gray-800 hover:text-blue-600" title="View Profile">
+                                <p class="text-center font-bold text-sm mt-1">{{cofrade.nombre_cofrade}}</p>
+                                <p class="text-xs text-green-500 text-center">{{
+                                cofrade.personaje.charAt(0).toUpperCase() + cofrade.personaje.slice(1).toLocaleLowerCase()}}
+                                </p>
+                                <p class="text-xs text-amber-500 text-center">{{
+                                cofrade.cargo.charAt(0).toUpperCase() + cofrade.cargo.slice(1).toLocaleLowerCase()}}
+                                </p>
+                            </a>
+                            }
+                            </div>
+                        }@else {
+                            <div class="h-64 mt-4 p-5 rounded-lg bg-white space-y-2 overflow-y-auto " style="height:10vh">
+                                <h2 class=" text-gray-700  pr-6 text-center"><strong>Sin Datos de Cofrades</strong></h2>
+                            </div>
+                        }
+                    </main>
+                    
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+<a href="/cofradia-detalle" class="btn-flotante"><img class="h-10 w-12
+    md:h-16 md:w-24" src="{{ 'assets/img/icos/fle1.png' }}"></a>

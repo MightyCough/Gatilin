@@ -1,0 +1,1783 @@
+[
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 1,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "AGUIRRE ALVARADO ANDI ALEZ",
+            "celular_cofrade": "",
+            "personaje": "TURCO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 2,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "DE LA CRUZ LASTRA DEYDI DANITZA",
+            "celular_cofrade": "",
+            "personaje": "DAMA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 3,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "DE LA CRUZ LASTRA DINO REYFORDT",
+            "celular_cofrade": "",
+            "personaje": "CAPORAL",
+            "cargo": "Presidente de cofradía",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 4,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "DE LA CRUZ LASTRA ERICK CRISTO",
+            "celular_cofrade": "",
+            "personaje": "CAPORAL",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 5,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "LASTRA LOARTE YURI FRANK",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Vicepresidente",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 6,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "HUAMAN JUANDE MAO ORIS",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 7,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "BASILIO JUANDE HENRY",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 8,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "JAUREGUI CONDEZO CARLOS",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 9,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "SOLORZANO TACUCHE YORLI",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 10,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "MINAYA MATO PATRICK",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 11,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "FLORES ARBAISO ALFREDO",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 12,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "APAC FABIAN GUILIANO ",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 13,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "LASTRA ANAYA JHOSEP",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 14,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "PINEDA SANCHEZ SMITH",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 15,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "PORTAL MORA ABEL",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 16,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "MEJIA MOLINA HAROLD",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 17,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "DE LAS CRUZ LASTRA JHINER",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 18,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "VALENZUELA SANTOS KENNY",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 19,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "DOROTEO MORALES YELTSIN",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 20,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "GARCIA BORJA SAID MANUEL",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 21,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "SANCHEZ RAMOS JEAN PIERO",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 22,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "LUNA AGUIRRE EDINSON JEANS",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 23,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "SOTO SALINAS JHORDY LUIS ",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 24,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "BETETA TELLO WILLIAM SAUL",
+            "celular_cofrade": "",
+            "personaje": "PAMPA",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 25,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "BACILIO AROSTEGUI MAYCOL",
+            "celular_cofrade": "",
+            "personaje": "ABANDERADO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 26,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "RUMI LOPEZ GONZALO ABEL",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 27,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "SEGURO NIÑO PEDRO PAOLO",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 28,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "RIVER MIGUEL WAGNER",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 29,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "ESTEBN VALVERDE JOSE LUIS",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 30,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "MORALES PIZARRO LUIS",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 31,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "HURTADO ASCA KENNEDY ",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 32,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "RIVERA MIGUEL ESTEYLER",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 33,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "VILLEGAS ROBLES WENSLIN JAVIER",
+            "celular_cofrade": "",
+            "personaje": "COROCHANO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 34,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "CHAVEZ FLORES WENDDY DAYANA",
+            "celular_cofrade": "",
+            "personaje": "CARGADORA ",
+            "cargo": "cargadora",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 35,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "MINAYA MATO JAZMIN",
+            "celular_cofrade": "",
+            "personaje": "CARGADORA ",
+            "cargo": "cargadora",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 36,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "FLORES DIONICIO SAYURI",
+            "celular_cofrade": "",
+            "personaje": "CARGADORA ",
+            "cargo": "cargadora",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 37,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "CHAVEZ FLORES WINNY FIORELA",
+            "celular_cofrade": "",
+            "personaje": "CARGADORA ",
+            "cargo": "cargadora",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 38,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "FLORES DIONICIO LUZ YAJAIRA",
+            "celular_cofrade": "",
+            "personaje": "CARGADORA ",
+            "cargo": "cargadora",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 39,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "LASTRA LOARTE ESTER LIDIA",
+            "celular_cofrade": "",
+            "personaje": "s/p",
+            "cargo": "Secretaria",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 40,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "LASTRA LOARTE DANIELA",
+            "celular_cofrade": "",
+            "personaje": "s/p",
+            "cargo": "Tesorera",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 41,
+        "fields": {
+            "cofradia": 1,
+            "dni_cofrade": "",
+            "nombre_cofrade": "LASTRA LOARTE CRISANTA ",
+            "celular_cofrade": "",
+            "personaje": "s/p",
+            "cargo": "Vocal",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 42,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "74091621",
+            "nombre_cofrade": "Joe Yordan Bustamante Espinoza",
+            "celular_cofrade": "917080004",
+            "personaje": "Caporal",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 43,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "73207242",
+            "nombre_cofrade": "Kenidy  Euler Cornelio Suarez",
+            "celular_cofrade": "962993007",
+            "personaje": "Caporal",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 44,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "74964346",
+            "nombre_cofrade": "Jorge Andres Serafin Martin ",
+            "celular_cofrade": "949351839",
+            "personaje": "guiador",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 45,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "74654371",
+            "nombre_cofrade": "Garri Sandro Chilo Chavez ",
+            "celular_cofrade": "999383363",
+            "personaje": "guiador",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 46,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "44024773",
+            "nombre_cofrade": "Cristian Richard Pinchi Martinez",
+            "celular_cofrade": "929265724",
+            "personaje": "guiador",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 47,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "47486998",
+            "nombre_cofrade": "Luis Miguel Valdivia Espiritu",
+            "celular_cofrade": "980464508",
+            "personaje": "guiador",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 48,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "40438845",
+            "nombre_cofrade": "Rafael Tello Leon",
+            "celular_cofrade": "963467166",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 49,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "44802811",
+            "nombre_cofrade": "Zocimo Teodoro Santiago Ildefonso",
+            "celular_cofrade": "988520422",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 50,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "73604315",
+            "nombre_cofrade": "Ever Ricardo Soto Chavez",
+            "celular_cofrade": "931689761",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 51,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "63002787",
+            "nombre_cofrade": "Anthony Salazar Enrique",
+            "celular_cofrade": "987249037",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 52,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "75485832",
+            "nombre_cofrade": "Pablo Josue Narciso Penadillo",
+            "celular_cofrade": "929240518",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 53,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "47302932",
+            "nombre_cofrade": "Jhonatan Fernando, Cornelio suarez",
+            "celular_cofrade": "915139270",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 54,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "76374922",
+            "nombre_cofrade": "Frank Kevin Principe Simon",
+            "celular_cofrade": "904807119",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 55,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "62847048",
+            "nombre_cofrade": "Luis Antonio Beraun Tello",
+            "celular_cofrade": "961861368",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 56,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "73473770",
+            "nombre_cofrade": "Erick Jimmy Bances Enriquez",
+            "celular_cofrade": "978260466",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 57,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "22421931",
+            "nombre_cofrade": "Victor Fueniques Rojas Tello",
+            "celular_cofrade": "926066506",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 58,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "71665582",
+            "nombre_cofrade": "Victor Franklin, Justo Alvarado",
+            "celular_cofrade": "914085298",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 59,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "74885383",
+            "nombre_cofrade": "Amed Jordano Malpartida Chujutalli",
+            "celular_cofrade": "985436700",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 60,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "46451541",
+            "nombre_cofrade": "Nilton  Pablo, Ramos Chamorro",
+            "celular_cofrade": "955448420",
+            "personaje": "corochano",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 61,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "62828681",
+            "nombre_cofrade": "Andre Jesus Yohao Padilla Rivera",
+            "celular_cofrade": "971581034",
+            "personaje": "corochano",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 62,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "62082116",
+            "nombre_cofrade": "Perci Daniel Diaz Quipe",
+            "celular_cofrade": "943152767",
+            "personaje": "corochano",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 63,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "90167364",
+            "nombre_cofrade": "Thiago Leonel Gonzales Cabrera",
+            "celular_cofrade": "",
+            "personaje": "corochano",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 64,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "90467288",
+            "nombre_cofrade": "Jeicob Leonardo Calero Sienfuegos",
+            "celular_cofrade": "",
+            "personaje": "corochano",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 65,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "45607665",
+            "nombre_cofrade": "Yesabela Franchesca, Rojas Onofre",
+            "celular_cofrade": "978317053",
+            "personaje": "dama",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 66,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "43700612",
+            "nombre_cofrade": "David Jesus Ramirez Yataco",
+            "celular_cofrade": "966787842",
+            "personaje": "turco",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 67,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "",
+            "nombre_cofrade": "keny Mori Valdivia",
+            "celular_cofrade": "",
+            "personaje": "abanderado",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 68,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Sebastian Mori Valdivia",
+            "celular_cofrade": "",
+            "personaje": "abanderado",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 69,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "47135458",
+            "nombre_cofrade": "Rocio del Pilar  Reyes Rodriguez",
+            "celular_cofrade": "955448420",
+            "personaje": "cargadora",
+            "cargo": "",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 70,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "61690668",
+            "nombre_cofrade": "Daniela Sahory Diaz Quipe",
+            "celular_cofrade": "981357840",
+            "personaje": "cargadora",
+            "cargo": "",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 71,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "47910393",
+            "nombre_cofrade": "Susan Sheyli Guzman Lopez",
+            "celular_cofrade": "972896416",
+            "personaje": "cargadora",
+            "cargo": "",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 72,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "41011772",
+            "nombre_cofrade": "Liset Guzman Villanueva",
+            "celular_cofrade": "918541344",
+            "personaje": "cargadora",
+            "cargo": "",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 73,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "22425487",
+            "nombre_cofrade": "Irma Caceres Onofre",
+            "celular_cofrade": "926066506",
+            "personaje": "junta directiva",
+            "cargo": "Presidenta de cofradía",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 74,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "72105579",
+            "nombre_cofrade": "Jhony Robinson Guzman lopez",
+            "celular_cofrade": "957670840",
+            "personaje": "junta directiva",
+            "cargo": "Vice Presidente de cofradía",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 75,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "73301729",
+            "nombre_cofrade": "Sumayra Nadir Chirre Caballero",
+            "celular_cofrade": "929240518",
+            "personaje": "junta directiva",
+            "cargo": "Secretaria",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 76,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "47240145",
+            "nombre_cofrade": "Carmela Quispe Rubina",
+            "celular_cofrade": "904367836",
+            "personaje": "junta directiva",
+            "cargo": "vocal",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 77,
+        "fields": {
+            "cofradia": 2,
+            "dni_cofrade": "42795137",
+            "nombre_cofrade": "Yerssel Nicolay Penadillo Ocalio",
+            "celular_cofrade": "",
+            "personaje": "junta directiva",
+            "cargo": "Fiscal",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 78,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "40404040",
+            "nombre_cofrade": "Andy Cuenca",
+            "celular_cofrade": "",
+            "personaje": "Caporal",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 79,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "50505050",
+            "nombre_cofrade": "Amed Tarazona",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 80,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "60606060",
+            "nombre_cofrade": "Alan Falcon",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 81,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "70707070",
+            "nombre_cofrade": "Luciano Diaz",
+            "celular_cofrade": "952091250",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 82,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "70707070",
+            "nombre_cofrade": "Leandro Cuenca",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 83,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Sebastian Templo",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 84,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Miguel Ponce",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 85,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Jonathan Zevallos",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 86,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Abel Delgadillo",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 87,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Marlon Eulario",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 88,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Samir Castro",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 89,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Jesus Falcon",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 90,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Jhastin Zambrano",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 91,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Angelo Moscoso",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 92,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Jeanpier Garay",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 93,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Wilder",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 94,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Kenny",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 95,
+        "fields": {
+            "cofradia": 5,
+            "dni_cofrade": "",
+            "nombre_cofrade": "Melesio Cuenca Soria",
+            "celular_cofrade": "",
+            "personaje": "Abanderado",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 96,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "73486572",
+            "nombre_cofrade": "Fretel Castillo Anderson Brando",
+            "celular_cofrade": "924835633",
+            "personaje": "Caporal",
+            "cargo": "Coordinador de la cofradia",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 97,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22491177",
+            "nombre_cofrade": "Guerra Malpartida Cesar Antonio",
+            "celular_cofrade": "924835633",
+            "personaje": "Caporal",
+            "cargo": "Presidente de cofradía",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 98,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "48715878",
+            "nombre_cofrade": "ESPINOZA ALBORNOZ YURIKA ANGELICA",
+            "celular_cofrade": "915225340",
+            "personaje": "",
+            "cargo": "JUNTA  Y COORDINADORA",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 99,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "71345700",
+            "nombre_cofrade": "GARCIA DIAZ JHOHAN ANDREE",
+            "celular_cofrade": "916843070",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 100,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "72424754",
+            "nombre_cofrade": "Matos Ordoñez Diego",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 101,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "47099769",
+            "nombre_cofrade": "BALTAZAR CHARRE Julio Cesar.",
+            "celular_cofrade": "",
+            "personaje": "Dama",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 102,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "61017029",
+            "nombre_cofrade": "Guerra Rodríguez Marlon Dominick",
+            "celular_cofrade": "",
+            "personaje": "pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 103,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "61776547",
+            "nombre_cofrade": "Carhua Huayta Jesús Orlando",
+            "celular_cofrade": "",
+            "personaje": "pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 104,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "45580351",
+            "nombre_cofrade": "Gargate Támara, Osias Fladmiro",
+            "celular_cofrade": "",
+            "personaje": "pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 105,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "61445741",
+            "nombre_cofrade": "APARICIO CASANOVA ADRIAN ENRIQUE",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 106,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "45249900",
+            "nombre_cofrade": "Gallardo isla Charly",
+            "celular_cofrade": "",
+            "personaje": "corochano",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 107,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "72727419",
+            "nombre_cofrade": "Gallardo Ysla Andrés alberto",
+            "celular_cofrade": "",
+            "personaje": "corochano",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 108,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "41660738",
+            "nombre_cofrade": "CASANOVA GUERRA ENRIQUE MARTIN",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 109,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "40983730",
+            "nombre_cofrade": "CASANOVA GUERRA DIANA LIZ",
+            "celular_cofrade": "945143239",
+            "personaje": "",
+            "cargo": "tesorera",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 110,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22414422",
+            "nombre_cofrade": "GUERRA Y MALDARTIDA ROSALBINA",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "JUNTA ",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 111,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "60948729",
+            "nombre_cofrade": "Ingunza Lastra Piero Jesús",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 112,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "60845789",
+            "nombre_cofrade": "Trujillo Campos Walter",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 113,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "75822053",
+            "nombre_cofrade": "Raymundo Carhua Junior",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 114,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22480945",
+            "nombre_cofrade": "CARLOS GUARDIAN GUERRA",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 115,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "75836617",
+            "nombre_cofrade": "LEONARDO GUARDIAN CHIA",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 116,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22423002",
+            "nombre_cofrade": "GUERRA MALPARTIDA DE GUARDIÁN BLANCA",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "JUNTA ",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 117,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22481552",
+            "nombre_cofrade": "CHIA ORDOÑEZ CELIA VICTORIA",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "JUNTA ",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 118,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22527440",
+            "nombre_cofrade": "Guerra Torres Jackelina Ursula",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "JUNTA ",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 119,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "75340816",
+            "nombre_cofrade": "Ampuero Calderón Alexander",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 120,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "76135533",
+            "nombre_cofrade": "León Calderón emmanuel Jeferson",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 121,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "90235340",
+            "nombre_cofrade": "Guardian Gonzales Iker Valentino",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 122,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "71688937",
+            "nombre_cofrade": "MIGUEL MENDOZA JEAN FRANCO",
+            "celular_cofrade": "",
+            "personaje": "ABANDERADO",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 123,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "73596046",
+            "nombre_cofrade": "LOPEZ AGUIRRE KRISTIAN",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 124,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "75153577",
+            "nombre_cofrade": "Guerra Albornoz Gianina Veronica",
+            "celular_cofrade": "940579976",
+            "personaje": "",
+            "cargo": "secretaria",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 125,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22490051",
+            "nombre_cofrade": "Albornoz Flores Kira",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "coordinadora",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 126,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "73892447",
+            "nombre_cofrade": "TolentinoVega Yherick",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 127,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22408521",
+            "nombre_cofrade": "Guardian Guerra Janeth Lourdes",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 128,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "21145489",
+            "nombre_cofrade": "Guardian Guerra Javier Lucio",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 129,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "61220863",
+            "nombre_cofrade": "Leandro Almerco Marvit Yhanely",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 130,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "61467319",
+            "nombre_cofrade": "Principe Guerra Miguel Cornelio",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 131,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "42237007",
+            "nombre_cofrade": "Principe Reyes Edebin",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 132,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22510110",
+            "nombre_cofrade": "Guerra Torres Giovana Dianet",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "participante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 133,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22512224",
+            "nombre_cofrade": "Guerra Tello Jhon Slinger",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "participante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 134,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "72175554",
+            "nombre_cofrade": "Revoredo Guerra Giancarlos victor",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 135,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "22404355",
+            "nombre_cofrade": "RodrigrezHidalgoCesarAugusto ",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 136,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "61253869",
+            "nombre_cofrade": "Colqui Santos Beckam Santiago",
+            "celular_cofrade": "",
+            "personaje": "Pampa",
+            "cargo": "Bailante",
+            "foto": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cofrades",
+        "pk": 137,
+        "fields": {
+            "cofradia": 10,
+            "dni_cofrade": "61811123",
+            "nombre_cofrade": "Colqui Santos Katyusca Noemi",
+            "celular_cofrade": "",
+            "personaje": "",
+            "cargo": "cargadora",
+            "foto": ""
+        }
+    }
+]

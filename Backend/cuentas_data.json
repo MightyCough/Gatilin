@@ -1,0 +1,42 @@
+[
+    {
+        "model": "Cuentas.usuario",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$ixuCrA9cpbqd3AIbeWMCIG$9zJnesF5p+1KuNz+eZdDP8gMQkkjdM+5Pn/5776VBwc=",
+            "last_login": "2023-12-20T03:51:39.110Z",
+            "is_superuser": true,
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-12-18T14:43:19.219Z",
+            "username": "",
+            "first_name": "",
+            "last_name": "",
+            "email": "andre_arg_0116@outlook.com",
+            "id_cofradia": null,
+            "registration_method": "email",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "Cuentas.usuario",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$npfVaIcAiR62LCY3DCVmhX$IR4kRnCELVDsODWYPm8LNTM4ySyugY3NO9tIiODomsk=",
+            "last_login": null,
+            "is_superuser": true,
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-12-18T16:21:17.640Z",
+            "username": "",
+            "first_name": "",
+            "last_name": "",
+            "email": "gfnicole969@gmail.com",
+            "id_cofradia": null,
+            "registration_method": "email",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

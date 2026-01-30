@@ -1,0 +1,48 @@
+<!-- component -->
+<section class="bg-cover bg-center w-full pb-8 pt-4"
+style="background-image: url('{{'assets/img/fondo/fondo.jpg'}}');">
+<!-- <div class="absolute h-[115vh] lg:h-[150vh] inset-0 py-12 bg-black bg-opacity-70 group-hover:opacity-75 transition duration-300 ease-in-out"></div> 
+ --><!-- component -->
+    <div class="flex items-center justify-center min-h-screen mt-4">
+        <div class="flex flex-col w-full px-4 absolute">
+            <!-- component -->
+            <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center ">
+                <h3 class="text-center">
+                    <a href="#" class="text-white text-2xl font-bold text-center" >
+                        <span class="absolute inset-0"></span>
+                        <h2 class="pb-6 text-2xl text-center font-extrabold ">Capture su Reporte 2024</h2>
+                    </a>
+                </h3>
+            </div>
+            <div class="flex items-center justify-center overflow-y-auto" style="height:80vh">
+                
+                <div class="bg-white rounded-2xl border p-4 shadow-xl">
+                <div class="flex flex-col items-center space-y-4">
+                    <video #video autoplay></video>
+                    <button (click)="takePicture()" class="bg-blue-400 text-white rounded-md font-semibold px-4 py-3 w-full">Tomar Foto</button>
+                    <canvas #canvas style="display:none;"></canvas>
+                    <p class="text-lg text-sky-600 font-medium text-center w-5/6">Buscamos que las cofradias Guarden la Costumbre.</p>
+
+                    <div class="bg-blue-400 rounded-md font-semibold px-4 py-3 w-full">
+                        <label for="tipoSelect" class="pr-6 text-white ">Tipo de Reporte:</label>
+                        <select  id="tipoSelect" [(ngModel)]="tipo" >
+                          <option value="Traje" class="text-black">Traje</option>
+                          <option value="Coreografía" class="text-black">Coreografía</option>
+                          <option value="Música" class="text-black">Música</option>
+                          <option value="Otro" class="text-black">Otro</option>
+                        </select>
+                    </div>
+                    <textarea [(ngModel)]="reporte" placeholder="Escribe y detalla tu reporte" 
+                        class="border rounded px-4 py-2 w-full h-36"></textarea>
+                    <button (click)="sendReport()" class="bg-blue-400 text-white 
+                        rounded-md font-semibold px-4 py-3 w-full">Reportar</button>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<a href="/cofradia-detalle" class="btn-flotante"><img class="h-10 w-12
+    md:h-16 md:w-24" src="{{ 'assets/img/icos/fle1.png' }}"></a>

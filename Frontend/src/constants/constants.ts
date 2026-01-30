@@ -1,0 +1,1 @@
+export const djangoUrl = 'https://negritos-583c2f5153ea.herokuapp.com/'

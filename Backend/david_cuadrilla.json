@@ -1,0 +1,16 @@
+[
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 27,
+        "fields": {
+            "nombre": "Patrocinio",
+            "nombre_completo": "Estudiantes Unidos del Patrocinio 06 de Enero",
+            "fecha_fundacion": "1973-01-10",
+            "sede_local": "Jr. Huallayco #1570",
+            "dni_representante": null,
+            "nombre_representante": "Willy Vidal Carbajal",
+            "telefono_representante": null,
+            "distrito": "HUÁNUCO"
+        }
+    }
+]

@@ -1,0 +1,313 @@
+<!-- component -->
+<section class="bg-cover bg-center w-full min-h-screen "
+style="background-image: url(' {{'assets/img/fondo/fondo.jpg'}} ');">
+<!-- <div class="absolute h-[115vh] lg:h-[150vh] inset-0 py-12 bg-black bg-opacity-70 group-hover:opacity-75 transition duration-300 ease-in-out"></div> 
+ -->  
+<div class="flex items-center justify-center min-h-screen">
+<div class="flex flex-col max-w-4xl mx-auto overflow-hidden text-black rounded-lg shadow-lg absolute px-5 py-2">
+    @if (cofradia){
+    <section class="min-h-screen px-6 pt-6">
+        <div class="flex flex-col">
+            <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center ">
+                <h3 class="text-center w-[60vw] md:w-[40vw] lg:w-[40vw]">
+                    <a href="#" class=" text-white text-2xl font-bold text-center" >
+                        <span class="absolute inset-0"></span>
+                        <h2 class="mt-12 py-2 text-2xl text-center font-extrabold ">{{cofradia.nombre_completo}}</h2>
+                    </a>
+                </h3>
+            </div>
+
+            <main class="mb-28 p-2 overflow-y-auto pb-8"  style="height:75vh">
+                @if (cronogramas && cronogramas.length > 0){
+                <div class="w-full h-64 px-4 pb-4 rounded-lg bg-white space-y-2 overflow-y-auto" style="height:50vh">  
+                    <div class=" pt-2 flex items-center justify-between lg:justify-start">
+                        <h2 class=" text-gray-700  pr-6"><strong>Cronograma</strong></h2>
+                            <a href="/cofrades">
+                            <img class="h-10 w-10" src="{{ 'assets/img/icos/cofra.png' }}">
+                            </a>
+                    </div>
+                    @if (cronogramasVispera && cronogramasVispera.length > 0){
+                        <div [style.background-color]="asignarColor(1)"
+                            class="relative block p-8 overflow-hidden border border-gray-100 rounded-lg">
+                            <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                            ></span>
+                            <div class="justify-between sm:flex">
+                                <h5 class="text-xl font-bold text-amber-800">
+                                    Día: Víspera
+                                </h5>
+                            </div>
+                            <br>
+                            @for (cronograma of cronogramasVispera; track cronograma.id) {
+                                <div>
+                                    <p class="mt-1 text-md font-medium text-red-800">Evento: {{ cronograma.evento }}</p>
+                                    <dl class="flex space-x-10">
+                                        <div class="flex flex-col-reverse">
+                                            <dt class="text-sm font-medium text-black-800/50">{{ formatDate(cronograma.fecha) }}</dt>
+                                            <dt class="text-sm font-medium text-black-800/50">Fecha:</dt>
+                                            <br>
+                                            <dd class="text-sm text-black-200">{{ cronograma.oferente }}</dd>
+                                            <dd class="text-sm text-black-200">Oferente:</dd>
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <dd class="text-sm text-black-200">Lugar:</dd>
+                                            <dd class="text-sm text-black-200">{{ cronograma.direccion }}</dd>
+                                            <br>
+                                            @if(cronograma.hora != null){
+                                                <dd class="text-sm text-black-200">Hora: </dd>
+                                                <dd class="text-sm text-black-200">{{ cronograma.hora }}</dd>
+                                            }
+                                        </div>
+                                    </dl>
+                                    <br>
+                                    <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                                    ></span>
+                                </div>
+                            }
+                        </div>
+                    }
+                    @if (cronogramas1er && cronogramas1er.length > 0){
+                        <div [style.background-color]="asignarColor(2)"
+                            class="relative block p-8 overflow-hidden border border-gray-100 rounded-lg">
+                            <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                            ></span>
+                            <div class="justify-between sm:flex">
+                                <h5 class="text-xl font-bold text-amber-800">
+                                    Día: 1er Día
+                                </h5>
+                            </div>
+                            <br>
+                            @for (cronograma of cronogramas1er; track cronograma.id) {
+                                <div>
+                                    <p class="mt-1 text-md font-medium text-red-800">Evento: {{ cronograma.evento }}</p>
+                                    <dl class="flex space-x-10">
+                                        <div class="flex flex-col-reverse">
+                                            <dt class="text-sm font-medium text-black-800/50">{{ formatDate(cronograma.fecha) }}</dt>
+                                            <dt class="text-sm font-medium text-black-800/50">Fecha:</dt>
+                                            <br>
+                                            <dd class="text-sm text-black-200">{{ cronograma.oferente }}</dd>
+                                            <dd class="text-sm text-black-200">Oferente:</dd>
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <dd class="text-sm text-black-200">Lugar:</dd>
+                                            <dd class="text-sm text-black-200">{{ cronograma.direccion }}</dd>
+                                            <br>
+                                            @if(cronograma.hora != null){
+                                                <dd class="text-sm text-black-200">Hora: </dd>
+                                                <dd class="text-sm text-black-200">{{ cronograma.hora }}</dd>
+                                            }
+                                        </div>
+                                    </dl>
+                                    <br>
+                                    <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                                    ></span>
+                                </div>
+                            }
+                        </div>
+                    }
+                    @if (cronogramas2do && cronogramas2do.length > 0){
+                        <div [style.background-color]="asignarColor(3)"
+                            class="relative block p-8 overflow-hidden border border-gray-100 rounded-lg">
+                            <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                            ></span>
+                            <div class="justify-between sm:flex">
+                                <h5 class="text-xl font-bold text-amber-800">
+                                    Día: 2do Día
+                                </h5>
+                            </div>
+                            <br>
+                            @for (cronograma of cronogramas2do; track cronograma.id) {
+                                <div>
+                                    <p class="mt-1 text-md font-medium text-red-800">Evento: {{ cronograma.evento }}</p>
+                                    <dl class="flex space-x-10">
+                                        <div class="flex flex-col-reverse">
+                                            <dt class="text-sm font-medium text-black-800/50">{{ formatDate(cronograma.fecha) }}</dt>
+                                            <dt class="text-sm font-medium text-black-800/50">Fecha:</dt>
+                                            <br>
+                                            <dd class="text-sm text-black-200">{{ cronograma.oferente }}</dd>
+                                            <dd class="text-sm text-black-200">Oferente:</dd>
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <dd class="text-sm text-black-200">Lugar:</dd>
+                                            <dd class="text-sm text-black-200">{{ cronograma.direccion }}</dd>
+                                            <br>
+                                            @if(cronograma.hora != null){
+                                                <dd class="text-sm text-black-200">Hora: </dd>
+                                                <dd class="text-sm text-black-200">{{ cronograma.hora }}</dd>
+                                            }
+                                        </div>
+                                    </dl>
+                                    <br>
+                                    <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                                    ></span>
+                                </div>
+                            }
+                        </div>
+                    }
+                    @if (cronogramas3er && cronogramas3er.length > 0){
+                        <div [style.background-color]="asignarColor(4)"
+                            class="relative block p-8 overflow-hidden border border-gray-100 rounded-lg">
+                            <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                            ></span>
+                            <div class="justify-between sm:flex">
+                                <h5 class="text-xl font-bold text-amber-800">
+                                    Día: 3er Día
+                                </h5>
+                            </div>
+                            <br>
+                            @for (cronograma of cronogramas3er; track cronograma.id) {
+                                <div>
+                                    <p class="mt-1 text-md font-medium text-red-800">Evento: {{ cronograma.evento }}</p>
+                                    <dl class="flex space-x-10">
+                                        <div class="flex flex-col-reverse">
+                                            <dt class="text-sm font-medium text-black-800/50">{{ formatDate(cronograma.fecha) }}</dt>
+                                            <dt class="text-sm font-medium text-black-800/50">Fecha:</dt>
+                                            <br>
+                                            <dd class="text-sm text-black-200">{{ cronograma.oferente }}</dd>
+                                            <dd class="text-sm text-black-200">Oferente:</dd>
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <dd class="text-sm text-black-200">Lugar:</dd>
+                                            <dd class="text-sm text-black-200">{{ cronograma.direccion }}</dd>
+                                            <br>
+                                            @if(cronograma.hora != null){
+                                                <dd class="text-sm text-black-200">Hora: </dd>
+                                                <dd class="text-sm text-black-200">{{ cronograma.hora }}</dd>
+                                            }
+                                        </div>
+                                    </dl>
+                                    <br>
+                                    <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                                    ></span>
+                                </div>
+                            }
+                        </div>
+                    }
+                    @if (cronogramas4to && cronogramas4to.length > 0){
+                        <div [style.background-color]="asignarColor(5)"
+                            class="relative block p-8 overflow-hidden border border-gray-100 rounded-lg">
+                            <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                            ></span>
+                            <div class="justify-between sm:flex">
+                                <h5 class="text-xl font-bold text-amber-800">
+                                    Día: 4to día
+                                </h5>
+                            </div>
+                            <br>
+                            @for (cronograma of cronogramas4to; track cronograma.id) {
+                                <div>
+                                    <p class="mt-1 text-md font-medium text-red-800">Evento: {{ cronograma.evento }}</p>
+                                    <dl class="flex space-x-10">
+                                        <div class="flex flex-col-reverse">
+                                            <dt class="text-sm font-medium text-black-800/50">{{ formatDate(cronograma.fecha) }}</dt>
+                                            <dt class="text-sm font-medium text-black-800/50">Fecha:</dt>
+                                            <br>
+                                            <dd class="text-sm text-black-200">{{ cronograma.oferente }}</dd>
+                                            <dd class="text-sm text-black-200">Oferente:</dd>
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <dd class="text-sm text-black-200">Lugar:</dd>
+                                            <dd class="text-sm text-black-200">{{ cronograma.direccion }}</dd>
+                                            <br>
+                                            @if(cronograma.hora != null){
+                                                <dd class="text-sm text-black-200">Hora: </dd>
+                                                <dd class="text-sm text-black-200">{{ cronograma.hora }}</dd>
+                                            }
+                                        </div>
+                                    </dl>
+                                    <br>
+                                    <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                                    ></span>
+                                </div>
+                            }
+                        </div>
+                    }
+                    @if (cronogramasDespedida && cronogramasDespedida.length > 0){
+                        <div [style.background-color]="asignarColor(6)"
+                            class="relative block p-8 overflow-hidden border border-gray-100 rounded-lg">
+                            <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                            ></span>
+                            <div class="justify-between sm:flex">
+                                <h5 class="text-xl font-bold text-amber-800">
+                                    Día: Despedida
+                                </h5>
+                            </div>
+                            <br>
+                            @for (cronograma of cronogramasDespedida; track cronograma.id) {
+                                <div>
+                                    <p class="mt-1 text-md font-medium text-red-800">Evento: {{ cronograma.evento }}</p>
+                                    <dl class="flex space-x-10">
+                                        <div class="flex flex-col-reverse">
+                                            <dt class="text-sm font-medium text-black-800/50">{{ formatDate(cronograma.fecha) }}</dt>
+                                            <dt class="text-sm font-medium text-black-800/50">Fecha:</dt>
+                                            <br>
+                                            <dd class="text-sm text-black-200">{{ cronograma.oferente }}</dd>
+                                            <dd class="text-sm text-black-200">Oferente:</dd>
+                                        </div>
+                                        <div class="flex flex-col">
+                                            <dd class="text-sm text-black-200">Lugar:</dd>
+                                            <dd class="text-sm text-black-200">{{ cronograma.direccion }}</dd>
+                                            <br>
+                                            @if(cronograma.hora != null){
+                                                <dd class="text-sm text-black-200">Hora: </dd>
+                                                <dd class="text-sm text-black-200">{{ cronograma.hora }}</dd>
+                                            }
+                                        </div>
+                                    </dl>
+                                    <br>
+                                    <span class="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                                    ></span>
+                                </div>
+                            }
+                        </div>
+                    }
+
+
+                    
+
+                    </div>
+                }@else {
+                    <div class="w-full h-64 px-4 pb-4 rounded-lg bg-white space-y-2 overflow-y-auto" style="height:10vh">
+                        <br>
+                        <h2 class=" text-gray-700  pr-6 text-center"><strong>No Cuenta con Cronograma</strong></h2>
+                    </div>
+                }
+                <!-- component -->
+                    @if(cofradia.is_live == false){
+                        <div class="h-64 mt-4 p-5 rounded-lg bg-white space-y-2 overflow-y-auto text-center" style="height:15vh">
+                            <h2 class="w-full text-gray-700">*Cada cuadrilla es responsable del manejo de su ubicación</h2>
+                            <h2 class="w-full text-gray-700 text-center text-xl"><strong>La cofradía no está compartiendo su Ubicación Actualmente</strong></h2>
+                        </div>
+                    }@else{
+                        <div class="h-64 mt-4 p-5 rounded-lg bg-white space-y-2 overflow-y-auto text-center" style="height:15vh">
+                            <h2 class="w-full text-gray-700">*Cada cuadrilla es responsable del manejo de su ubicación</h2>
+                            @if(cofradia.ubicacion != null){
+                                @if (cofradia.ubicacion.includes('https')){
+                                    <br>
+                                    <a 
+                                    href={{cofradia.ubicacion}} target="_blank"
+                                    class="bg-amber-400 h-64 mt-4 p-5 space-y-2 overflow-y-auto">Abrir Ubicación en Maps</a>
+                                }@else{
+                                    <h2 class="w-full text-gray-700 "><strong>No se está compartiendo la ubicación actualmente</strong></h2>
+                                }
+                            }@else {
+                                <h2 class="w-full text-gray-700 "><strong>No se está compartiendo la ubicación actualmente</strong></h2>
+                            }
+
+                        </div>
+                    }
+            </main>
+            
+        </div>
+        
+    </section>
+    }
+</div>
+</div>
+</section>
+@if (cofradia?.is_live==true){
+    <div class="btn-flotanteD">
+        <a href="/reportar">Reportar</a>
+    </div>
+}
+<a href="/cofradia" class="btn-flotante"><img class="h-10 w-12
+    md:h-16 md:w-24" src="{{ 'assets/img/icos/fle1.png' }}"></a>
