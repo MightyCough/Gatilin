@@ -1,0 +1,436 @@
+[
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 1,
+        "fields": {
+            "nombre": "Alfonso Ugarte",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús Real Alfonso Ugarte ",
+            "fecha_fundacion": "2018-01-09",
+            "sede_local": "Losa Deportiva Comité 16 Aparicio Pomares",
+            "dni_representante": 43596849,
+            "nombre_representante": "Caballero Evaristo Vicente Alejandro",
+            "telefono_representante": 990555788,
+            "distrito": "HUANUCO"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 2,
+        "fields": {
+            "nombre": "Nazaret del Huallaga",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús de Nazaret Real Zona Cero",
+            "fecha_fundacion": "2006-01-12",
+            "sede_local": "Jr. Malecon Huallaga Nº127",
+            "dni_representante": 43544257,
+            "nombre_representante": "Betsy Marleni Zevallos Quiroz",
+            "telefono_representante": 994883607,
+            "distrito": "AMARILIS "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 3,
+        "fields": {
+            "nombre": "Todas las sangres",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús Todas las Sangres del Barrio Señor de Huallaga (llicua)",
+            "fecha_fundacion": "2010-09-07",
+            "sede_local": "Calle. señor de Burgos MZG LT10 CPM llicua",
+            "dni_representante": 43490072,
+            "nombre_representante": "Dario Angel Isla Vigilio",
+            "telefono_representante": 964775543,
+            "distrito": "AMARILIS "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 4,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús de San Sebastian ",
+            "fecha_fundacion": "2016-03-19",
+            "sede_local": "Jr. Abtao N° 112",
+            "dni_representante": 22425487,
+            "nombre_representante": "Yrma Ynocenta Onofre Caceres",
+            "telefono_representante": 957670840,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 5,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradía de negritos “Sagrada Familia”",
+            "fecha_fundacion": "1989-01-11",
+            "sede_local": " Jr. Huallayco 215",
+            "dni_representante": 42107880,
+            "nombre_representante": "Omar Eddu Soria Cisneros ",
+            "telefono_representante": 973905316,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 6,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradía de Negritos del Niño Jesús Rey de Reyes San Agustín.",
+            "fecha_fundacion": "2023-01-11",
+            "sede_local": "Jr. Dos de Mayo #1829\n",
+            "dni_representante": 72228025,
+            "nombre_representante": "Albert Junior Segundo Gonzales",
+            "telefono_representante": 975198090,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 7,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Asociacion Folklorica Cofradía de Negritos Niño Jesús San Pedro",
+            "fecha_fundacion": "1989-01-06",
+            "sede_local": "Jr. Independencia 177",
+            "dni_representante": 22494595,
+            "nombre_representante": "Roger Enrique Caldas Valdez ",
+            "telefono_representante": 932248213,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 8,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús Copacabana",
+            "fecha_fundacion": "2020-08-06",
+            "sede_local": "Jr. Leoncio Prado 1085",
+            "dni_representante": 22477890,
+            "nombre_representante": "Nader Alzedo Pozo Esteban ",
+            "telefono_representante": 962859417,
+            "distrito": " HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 9,
+        "fields": {
+            "nombre": "Real Caballero de León",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús Real Caballeros de León",
+            "fecha_fundacion": "2018-02-26",
+            "sede_local": "Jr. Brasil Mz P Lt. 14 San Luis Sect. 2",
+            "dni_representante": 45376472,
+            "nombre_representante": "Juan Carlos Santos Verde",
+            "telefono_representante": 966097509,
+            "distrito": "AMARILIS "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 10,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Divino Niño Jesús Redentor Zona Cero",
+            "fecha_fundacion": null,
+            "sede_local": "Jr. Tumbes cuadra 2 Zona Cero",
+            "dni_representante": 76867585,
+            "nombre_representante": "Yerson Jose Luis Falcon Solis",
+            "telefono_representante": 972581609,
+            "distrito": "AMARILIS "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 11,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Divino Niño Jesús Barrio Tarma",
+            "fecha_fundacion": null,
+            "sede_local": "Jr. Tarma cuadra 1",
+            "dni_representante": 47030843,
+            "nombre_representante": "Luis Alberto Collas Huanca",
+            "telefono_representante": 944478902,
+            "distrito": "HUÁNUCO"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 12,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradía de negritos Cesar Guerra del Barrio San Pedro",
+            "fecha_fundacion": "1939-01-06",
+            "sede_local": "Jr. Ayancocha 287",
+            "dni_representante": 22491177,
+            "nombre_representante": "Cesar Antonio Guerra Malpartida ",
+            "telefono_representante": 924835633,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 13,
+        "fields": {
+            "nombre": "Divino Niño",
+            "nombre_completo": "Cofradia de negritos Divino Niño Jesús y sus Amigos",
+            "fecha_fundacion": "2016-09-16",
+            "sede_local": "Jr. Las Begonias # 139 - Amarilis",
+            "dni_representante": 22477042,
+            "nombre_representante": "Oscar Enrique Perez Marmanillo",
+            "telefono_representante": 978110102,
+            "distrito": "AMARILIS"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 14,
+        "fields": {
+            "nombre": "Corazon de San Luis",
+            "nombre_completo": "Cofradía de negritos niño Jesús Corazón de San Luis Sector 1",
+            "fecha_fundacion": "2019-01-10",
+            "sede_local": "Av. Perú / Jr. Sara Sara",
+            "dni_representante": 22511192,
+            "nombre_representante": "Alejandro Alcelmo Falcon Zorrilla y Lenin Klin Córdova Aquino",
+            "telefono_representante": 940609251,
+            "distrito": "AMARILIS"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 15,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús de la Florida ",
+            "fecha_fundacion": null,
+            "sede_local": "null",
+            "dni_representante": 22403150,
+            "nombre_representante": "Bernabe Felix Salazar Nieto",
+            "telefono_representante": 952950304,
+            "distrito": "HUÁNUCO"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 16,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús de la Amistad del Sector 1",
+            "fecha_fundacion": null,
+            "sede_local": "null",
+            "dni_representante": 40774939,
+            "nombre_representante": "Gromelio Pedro Silva Salgado",
+            "telefono_representante": 998447519,
+            "distrito": "AMARILIS "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 17,
+        "fields": {
+            "nombre": "Caballeros de la ciudad jardin ",
+            "nombre_completo": "Asociación Cofradia de Negritos Niño Jesús de Paucarbambilla ",
+            "fecha_fundacion": "2023-01-29",
+            "sede_local": "Jiron Tulipanes n°423",
+            "dni_representante": 44116537,
+            "nombre_representante": "Franz Angel Ferrer Saldaña ",
+            "telefono_representante": 977319780,
+            "distrito": "AMARILIS"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 18,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradía de Negritos Niño Jesús Ingeniero",
+            "fecha_fundacion": "2008-12-05",
+            "sede_local": "Jr. 28 de julio Nº340",
+            "dni_representante": 22489687,
+            "nombre_representante": "Moner Fermin Guerra Utrilla",
+            "telefono_representante": 973829687,
+            "distrito": "HUANUCO"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 19,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradía de Negritos Niño Jesús Amistad Real De Pinzás ",
+            "fecha_fundacion": "2022-07-17",
+            "sede_local": "Jr. San Martin 147",
+            "dni_representante": 44794265,
+            "nombre_representante": "Christian Frank Noreña Herrera  ",
+            "telefono_representante": 972402513,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 20,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Niño Jesus del Barrio Puelles",
+            "fecha_fundacion": null,
+            "sede_local": "Jr. Alfonso Ugarte Mz B Lt 13",
+            "dni_representante": 80520449,
+            "nombre_representante": "Cropus Ernesto Vela Mendoza",
+            "telefono_representante": 949621747,
+            "distrito": "HUÁNUCO"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 21,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "null",
+            "fecha_fundacion": null,
+            "sede_local": "null",
+            "dni_representante": "null",
+            "nombre_representante": "null",
+            "telefono_representante": "null",
+            "distrito": "null"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 22,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Borrar",
+            "fecha_fundacion": null,
+            "sede_local": "null",
+            "dni_representante": "null",
+            "nombre_representante": "null",
+            "telefono_representante": "null",
+            "distrito": "null"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 23,
+        "fields": {
+            "nombre": "Familia Carnero y Amigos",
+            "nombre_completo": "Cofradía De Negritos Niño Jesús de la Familia Carnero y Amigos ",
+            "fecha_fundacion": "2011-01-13",
+            "sede_local": "Av.  28 de Agosto N°2015",
+            "dni_representante": 22516043,
+            "nombre_representante": "Hugo Cesar Carnero Miraval ",
+            "telefono_representante": 975757026,
+            "distrito": "AMARILIS "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 24,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús Virgen de Las Nieves ",
+            "fecha_fundacion": "2011-01-13",
+            "sede_local": "Av. Perú MZ. H Lt 5, San Luis Sector 2 Amarilis",
+            "dni_representante": 45607683,
+            "nombre_representante": "Dino de la Cruz Lastra ",
+            "telefono_representante": 954938048,
+            "distrito": "AMARILIS "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 25,
+        "fields": {
+            "nombre": "La Catedral",
+            "nombre_completo": "Hermandad y Cofradía Niño Jesús de la Catedral",
+            "fecha_fundacion": "1989-07-21",
+            "sede_local": "Jr. Brancacho #275 Llicua - Amarilis",
+            "dni_representante": 22514779,
+            "nombre_representante": "Florinda Meza Montesillo de Pino",
+            "telefono_representante": 962655836,
+            "distrito": "HUÁNUCO"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 26,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradia de Negritos Niño Jesús El Doctorcito del Sagrario de la Merced",
+            "fecha_fundacion": null,
+            "sede_local": "Jr. Damaso Beraun #611",
+            "dni_representante": 22422900,
+            "nombre_representante": "Leonidas Humberto Vaca Estrada",
+            "telefono_representante": 963069823,
+            "distrito": "HUÁNUCO"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 27,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "null",
+            "fecha_fundacion": null,
+            "sede_local": "null",
+            "dni_representante": "null",
+            "nombre_representante": "null",
+            "telefono_representante": "null",
+            "distrito": "null"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 28,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Niño Jesús del Progreso",
+            "fecha_fundacion": "2009-01-19",
+            "sede_local": "Jr. Progreso 320",
+            "dni_representante": 40491622,
+            "nombre_representante": "Americo Chocano Ramirez ",
+            "telefono_representante": 924452320,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 29,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Cofradía de negritos del Niño Jesús de la Asociación Cultural Huanuco Canta y Baila ",
+            "fecha_fundacion": "1996-12-25",
+            "sede_local": "Jr. Leoncio Prado N°451",
+            "dni_representante": 46128187,
+            "nombre_representante": "Rodrigo Vela Ramírez ",
+            "telefono_representante": 929962549,
+            "distrito": "HUANUCO "
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 30,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Divino Niño Jesús Rey de Reyes",
+            "fecha_fundacion": null,
+            "sede_local": "null",
+            "dni_representante": "null",
+            "nombre_representante": "Maria Elith Meza Ruiz",
+            "telefono_representante": "null",
+            "distrito": "null"
+        }
+    },
+    {
+        "model": "Cuadrillas.cofradias",
+        "pk": 31,
+        "fields": {
+            "nombre": "null",
+            "nombre_completo": "Niño Jesus Redentor de Amarilis",
+            "fecha_fundacion": "2017-02-09",
+            "sede_local": "Jr. Santos Chocano Nº134",
+            "dni_representante": 22460769,
+            "nombre_representante": "Edita Adelaida Silva Sullca",
+            "telefono_representante": 917361857,
+            "distrito": "AMARILIS"
+        }
+    }
+]

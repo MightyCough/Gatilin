@@ -1,0 +1,886 @@
+[
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 1,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-10",
+            "dia": "Víspera",
+            "evento": "Misa",
+            "direccion": "IGLESIA SAN SEBASTIAN ",
+            "oferente": "FAM. LASTRA LOARTE",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 2,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-10",
+            "dia": "Víspera",
+            "evento": "Víspera",
+            "direccion": "AV. PERU MZ. H LT 5 SECTOR 2 AMARILIS",
+            "oferente": "FAM. LASTRA LOARTE",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 3,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-11",
+            "dia": "Día 1",
+            "evento": "Misa",
+            "direccion": "Parroquia Santa Maria de Fatima",
+            "oferente": "",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 4,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-11",
+            "dia": "Día 1",
+            "evento": "Desayuno",
+            "direccion": "AV. VIA COLECTORA LT 11 PILLCO MARCA",
+            "oferente": "FAMILIA SALINAS",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 5,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-11",
+            "dia": "Día 1",
+            "evento": "Visita",
+            "direccion": "JR. CUBA MZ. B LT 10",
+            "oferente": "FAMILIA FLORES",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 6,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-11",
+            "dia": "Día 1",
+            "evento": "Almuerzo",
+            "direccion": "JR. HUASCARAN SECTOR 1",
+            "oferente": "FAMILIA TIMOREO",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 7,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-11",
+            "dia": "Día 1",
+            "evento": "Visita",
+            "direccion": "COLEGIO DE INGENIEROS JR 28 DE JULIO",
+            "oferente": "FAMILIA DE LA CRUZ ",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 8,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-12",
+            "dia": "Día 2",
+            "evento": "Misa",
+            "direccion": "Parroquia Santa Maria de Fatima",
+            "oferente": "",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 9,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-12",
+            "dia": "Día 2",
+            "evento": "Desayuno",
+            "direccion": "AV. PERU MZ H LT. 5 SECTOR 2",
+            "oferente": "FAMILIA LASTRA",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 10,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-12",
+            "dia": "Día 2",
+            "evento": "Visita",
+            "direccion": "JR. COLOMBIA MZ 5 LT 10",
+            "oferente": "FAMILIA PINEDA",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 11,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-12",
+            "dia": "Día 2",
+            "evento": "Almuerzo",
+            "direccion": "AV. ESTEBAN PABLETICH MZ B1 LT 10 SECTOR 4",
+            "oferente": "FAMILIA NIETO ORTEGA",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 12,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-12",
+            "dia": "Día 2",
+            "evento": "Visita",
+            "direccion": "COLEGIO DE INGENIEROS JR 28 DE JULIO",
+            "oferente": "FAMILIA DE LA CRUZ ",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 13,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-13",
+            "dia": "Día 3",
+            "evento": "Misa",
+            "direccion": "Parroquia Santa Maria de Fatima",
+            "oferente": "",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 14,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-13",
+            "dia": "Día 3",
+            "evento": "Desayuno",
+            "direccion": "AV. PERU MZ H LT. 5 SECTOR 2",
+            "oferente": "FAMILIA FLORES CONDEZO",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 15,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-13",
+            "dia": "Día 3",
+            "evento": "Visita",
+            "direccion": "URB. SANTA ELENA FONAVI II",
+            "oferente": "FAMILIA DE LA CRUZ ",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 16,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-13",
+            "dia": "Día 3",
+            "evento": "Almuerzo",
+            "direccion": "JR. 28 DE JULIO 422",
+            "oferente": "ERICK DE LA CRUZ LASTRA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 17,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-13",
+            "dia": "Día 3",
+            "evento": "Visita",
+            "direccion": "COLEGIO DE INGENIEROS JR 28 DE JULIO",
+            "oferente": "FAMILIA MAYO JUIPA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 18,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-14",
+            "dia": "Día 4",
+            "evento": "Misa",
+            "direccion": "Parroquia Santa Maria de Fatima",
+            "oferente": "",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 19,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-14",
+            "dia": "Día 4",
+            "evento": "Desayuno",
+            "direccion": "AV. PERU MZ H LT. 5 SECTOR 2",
+            "oferente": "FAMILIA SALINAS",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 20,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-14",
+            "dia": "Día 4",
+            "evento": "Visita",
+            "direccion": "REAL PLAZA HUANUCO",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 21,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-14",
+            "dia": "Día 4",
+            "evento": "",
+            "direccion": "PRESENTACION PLAZA DE ARMAS HUANUCO",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 22,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-14",
+            "dia": "Día 4",
+            "evento": "Almuerzo",
+            "direccion": "JR. PROGRESO 580",
+            "oferente": "KHALEEMA CONSULTORES",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 23,
+        "fields": {
+            "cofradia": 1,
+            "fecha": "2024-01-14",
+            "dia": "Día 4",
+            "evento": "DESPEDIDA",
+            "direccion": "EXPLANADA RINCONSITO HUANUQUEÑO",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 24,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-11",
+            "dia": "Víspera",
+            "evento": "Baile Tradicional",
+            "direccion": "JR. HUALLAYCO 215",
+            "oferente": "BLANCA DIAZ SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 25,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-11",
+            "dia": "Víspera",
+            "evento": "Misa",
+            "direccion": "IGLESIA SAN SEBASTIAN",
+            "oferente": "BLANCA DIAZ SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 26,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-11",
+            "dia": "Víspera",
+            "evento": "Adoración",
+            "direccion": "IGLESIA SAN SEBASTIAN",
+            "oferente": "BLANCA DIAZ SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 27,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-11",
+            "dia": "Víspera",
+            "evento": "Víspera",
+            "direccion": "JR. HUALLAYCO 215",
+            "oferente": "BLANCA DIAZ SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 28,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-12",
+            "dia": "Día 1",
+            "evento": "Desayuno",
+            "direccion": "JR. HUALLAYCO 215",
+            "oferente": "FAMILIA SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 29,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-12",
+            "dia": "Día 1",
+            "evento": "Misa",
+            "direccion": "IGLESIA SAN SEBASTIAN",
+            "oferente": "FAMILIA SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 30,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-12",
+            "dia": "Día 1",
+            "evento": "Visita",
+            "direccion": "CEMENTERIO GENERAL",
+            "oferente": "MELESIO SORIA JAUREGUI",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 31,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-12",
+            "dia": "Día 1",
+            "evento": "Almuerzo",
+            "direccion": "JR. HUALLAYCO 215",
+            "oferente": "FAMILIA SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 32,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-12",
+            "dia": "Día 1",
+            "evento": "Visita",
+            "direccion": "JR LIBERTAD 235",
+            "oferente": "FAMILIA TRUJILLO SALAS",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 33,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-12",
+            "dia": "Día 1",
+            "evento": "Cena",
+            "direccion": "JR. HUALLAYCO 215",
+            "oferente": "FAMILIA SORIA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 34,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-13",
+            "dia": "Día 2",
+            "evento": "Desayuno",
+            "direccion": "JR. LEONCIO PRADO 315",
+            "oferente": "FAMILIA RIOS ARGANDOÑA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 35,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-13",
+            "dia": "Día 2",
+            "evento": "Misa",
+            "direccion": "IGLESIA PATROCINIO",
+            "oferente": "FAMILIA RIOS ARGANDOÑA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 36,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-13",
+            "dia": "Día 2",
+            "evento": "Visita",
+            "direccion": "CARRETERA AEROPUERTO KM.2 ",
+            "oferente": "FAMILIA GONZALES GASPAR",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 37,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-13",
+            "dia": "Día 2",
+            "evento": "Almuerzo",
+            "direccion": "JR. LEONCIO PRADO 315",
+            "oferente": "FAMILIA RIOS ARGANDOÑA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 38,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-13",
+            "dia": "Día 2",
+            "evento": "Visita",
+            "direccion": "JR. AGUILAR 750",
+            "oferente": "FAMILIA DIAZ",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 39,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-13",
+            "dia": "Día 2",
+            "evento": "Cena",
+            "direccion": "JR. LEONCIO PRADO 315",
+            "oferente": "FAMILIA RIOS ARGANDOÑA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 40,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-14",
+            "dia": "Día 3",
+            "evento": "Desayuno",
+            "direccion": "JR. SAN MARTIN 224",
+            "oferente": "FAMILIA CHAUPIS TARAZONA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 41,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-14",
+            "dia": "Día 3",
+            "evento": "Misa",
+            "direccion": "IGLESIA SAN SEBASTIAN",
+            "oferente": "FAMILIA CHAUPIS TARAZONA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 42,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-14",
+            "dia": "Día 3",
+            "evento": "Visita",
+            "direccion": "JR . SEICHI IZUMI 240",
+            "oferente": "FAMILIA ROJAS",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 43,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-14",
+            "dia": "Día 3",
+            "evento": "Almuerzo",
+            "direccion": "JR. SAN MARTIN 224",
+            "oferente": "FAMILIA CHAUPIS TARAZONA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 44,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-14",
+            "dia": "Día 3",
+            "evento": "Visita",
+            "direccion": "AV. GIRASOLES 125",
+            "oferente": "FAMILIA HUAPALLA MARTINEZ",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 45,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-14",
+            "dia": "Día 3",
+            "evento": "Cena",
+            "direccion": "JR. SAN MARTIN 224",
+            "oferente": "FAMILIA CHAUPIS TARAZONA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 46,
+        "fields": {
+            "cofradia": 5,
+            "fecha": "2024-01-14",
+            "dia": "Día 3",
+            "evento": "Despedida",
+            "direccion": "JR. HUALLAYCO 215",
+            "oferente": "FAMILIA CHAUPIS TARAZONA",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 47,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-05",
+            "dia": "Víspera",
+            "evento": "",
+            "direccion": "Jr abtao 112",
+            "oferente": "Candy Chio Chavez",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 48,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2023-01-06",
+            "dia": "Día 1",
+            "evento": "Desayuno",
+            "direccion": "Jr abtao 112",
+            "oferente": "cofradia de negritos ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 49,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-06",
+            "dia": "Día 1",
+            "evento": "Misa",
+            "direccion": "Parroquia San Sebastián",
+            "oferente": "cofradia de negritos ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 50,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-06",
+            "dia": "Día 1",
+            "evento": "visita",
+            "direccion": "Los bomeros - Huánuco",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 51,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-07",
+            "dia": "Día 1",
+            "evento": "almuerzo",
+            "direccion": "Jr abtao 112",
+            "oferente": "cofradia de negritos ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 52,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-14",
+            "dia": "Día 1",
+            "evento": "cena",
+            "direccion": "Jr abtao 112",
+            "oferente": "cofradia de negritos ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 53,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-14",
+            "dia": "Día 2",
+            "evento": "Desayuno",
+            "direccion": "",
+            "oferente": "Angelo Vilca Huaman Crispin Y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 54,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-14",
+            "dia": "Día 2",
+            "evento": "Misa",
+            "direccion": "Parroquia San Sebastián",
+            "oferente": "Angelo Vilca Huaman Crispin Y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 55,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-14",
+            "dia": "Día 2",
+            "evento": "visita",
+            "direccion": "",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 56,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-15",
+            "dia": "Día 2",
+            "evento": "almuerzo",
+            "direccion": "",
+            "oferente": "Angelo Vilca Huaman Crispin Y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 57,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-15",
+            "dia": "Día 2",
+            "evento": "cena",
+            "direccion": "",
+            "oferente": "Angelo Vilca Huaman Crispin Y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 58,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-15",
+            "dia": "Día 3",
+            "evento": "Desayuno",
+            "direccion": "Jr abtao 112",
+            "oferente": "Luis Rios ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 59,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-15",
+            "dia": "Día 3",
+            "evento": "Misa",
+            "direccion": "Parroquia San Sebastián",
+            "oferente": "Luis Rios ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 60,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-15",
+            "dia": "Día 3",
+            "evento": "visita",
+            "direccion": "",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 61,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-15",
+            "dia": "Día 3",
+            "evento": "almuerzo",
+            "direccion": "Jr abtao 112",
+            "oferente": "Luis Rios ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 62,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-15",
+            "dia": "Día 3",
+            "evento": "cena",
+            "direccion": "Jr abtao 112",
+            "oferente": "Luis Rios ",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 63,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-16",
+            "dia": "Día 4",
+            "evento": "Desayuno",
+            "direccion": "Jr abtao 112",
+            "oferente": "Yordan Bustamante Espinoza y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 64,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-16",
+            "dia": "Día 4",
+            "evento": "Misa",
+            "direccion": "Parroquia San Sebastián",
+            "oferente": "Kenidy  Euler Cornelio Suarez",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 65,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-16",
+            "dia": "Día 4",
+            "evento": "visita",
+            "direccion": "Jr abtao 112",
+            "oferente": "Yordan Bustamante Espinoza y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 66,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-16",
+            "dia": "Día 4",
+            "evento": "almuerzo",
+            "direccion": "Jr abtao 112",
+            "oferente": "Yordan Bustamante Espinoza y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 67,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-16",
+            "dia": "Día 4",
+            "evento": "cena",
+            "direccion": "Jr abtao 112",
+            "oferente": "Yordan Bustamante Espinoza y Familia",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 68,
+        "fields": {
+            "cofradia": 2,
+            "fecha": "2024-01-16",
+            "dia": "despedida",
+            "evento": "",
+            "direccion": "Jr abtao 112",
+            "oferente": "Yordan Bustamante Espinoza y Familia",
+            "tipo_oferente": ""
+        }
+    }
+]

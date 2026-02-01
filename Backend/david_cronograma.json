@@ -1,0 +1,478 @@
+[
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 239,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-05",
+            "dia": "Vispera",
+            "evento": "Inicio",
+            "hora": "17:30:00",
+            "direccion": "Jr. Leoncio Prado Cdra. 16 (Pasaje T)",
+            "oferente": "Familia García Bernardo",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 240,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-05",
+            "dia": "Vispera",
+            "evento": "Concentración",
+            "hora": "18:00:00",
+            "direccion": "Jr. Leoncio Prado Cdra. 16 (Pasaje T)",
+            "oferente": "Familia García Bernardo",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 241,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-05",
+            "dia": "Vispera",
+            "evento": "Misa",
+            "hora": "20:00:00",
+            "direccion": "Jr. Huallayco 1582",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 242,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-05",
+            "dia": "Vispera",
+            "evento": "Quema de pirotecnia",
+            "hora": "21:15:00",
+            "direccion": "Jr. Huallayco 1582",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 243,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-05",
+            "dia": "Vispera",
+            "evento": "Visita",
+            "hora": "21:30:00",
+            "direccion": "Jr. San Martín 1775",
+            "oferente": "Sr. Jhon Garay y Sra.",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 244,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-05",
+            "dia": "Vispera",
+            "evento": "Traslado del Niño",
+            "hora": "22:00:00",
+            "direccion": "Jr. Huallayco 1520",
+            "oferente": "Hnos. Condezo Bravo y Familias",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 245,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Concentración",
+            "hora": "06:30:00",
+            "direccion": "Jr. Huallayco 1520",
+            "oferente": "Hnos. Condezo Bravo y familias",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 246,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Misa",
+            "hora": "08:00:00",
+            "direccion": "Jr. Huallayco 1582",
+            "oferente": "Parroquia \"Nuestra Señora del Patrocinio\"",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 247,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Traslado del Niño ",
+            "hora": "09:00:00",
+            "direccion": "Jr. Huallayco 1560",
+            "oferente": "Fam. Vidal Carbajal",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 248,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Visita",
+            "hora": "11:30:00",
+            "direccion": "Jr. 28 de julio 1114",
+            "oferente": "Unidad Médico Legal de Huánuco",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 249,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Almuerzo",
+            "hora": "14:00:00",
+            "direccion": "Malecón Centenario 115",
+            "oferente": "Hnos. Condezo Bravo y familias",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 250,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Visita",
+            "hora": "17:00:00",
+            "direccion": "Jr. Abtao 1705",
+            "oferente": "Fam. Malpartida Quispe",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 251,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Entrega del trucay",
+            "hora": "19:00:00",
+            "direccion": "Jr. Huallayco 1560",
+            "oferente": "Fam. Vidal Carbajal",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 252,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Traslado",
+            "hora": "19:30:00",
+            "direccion": "Malecón Centenario 115",
+            "oferente": "Hnos. Condezo Bravo y familias",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 253,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-06",
+            "dia": "1er Día",
+            "evento": "Cena",
+            "hora": "20:00:00",
+            "direccion": "Malecón Centenario 116",
+            "oferente": "Hnos. Condezo Bravo y familias",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 254,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Concentración",
+            "hora": "06:30:00",
+            "direccion": "Jr. Leoncio Prado Cdra. 16 (Pasaje T)",
+            "oferente": "Parroquia \"Nuestra Señora del Patrocinio\"",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 255,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Misa",
+            "hora": "07:00:00",
+            "direccion": "Jr. Huallayco 1582",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 256,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Traslado del Niño",
+            "hora": "08:30:00",
+            "direccion": "Av. Alameda de la República Cdra. 1",
+            "oferente": "Fam. Cardenas Calderón",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 257,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Visita",
+            "hora": "10:30:00",
+            "direccion": "Psja. San Martín 279",
+            "oferente": "Fam. Rangel Malpartida",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 258,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Presentación",
+            "hora": "13:15:00",
+            "direccion": "Plaza de Armas de Huánuco",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 259,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Almuerzo",
+            "hora": "14:30:00",
+            "direccion": "Jr. San Martín 1651",
+            "oferente": "Fam. García Bernardo, Marlon Lorenzo Arenas y Anthony Lopez Crizanto",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 260,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Visita",
+            "hora": "17:00:00",
+            "direccion": "Jr. Abtao 754",
+            "oferente": "Sr. Jhoan Villanueva Garay y Familia",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 261,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Entrega del trucay ",
+            "hora": "19:00:00",
+            "direccion": "Av. Alameda de la República Cdra. 1",
+            "oferente": "Fam. Cardenas Calderón",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 262,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Traslado del Niño",
+            "hora": "19:30:00",
+            "direccion": "Av. Alameda de la República Cdra. 1",
+            "oferente": "Fam. García Bernardo, Marlon Lorenzo Arenas y Anthony Lopez Crizanto",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 263,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-07",
+            "dia": "2do Día",
+            "evento": "Cena",
+            "hora": "20:00:00",
+            "direccion": "Jr. San Martín 1651",
+            "oferente": "Fam. García Bernardo, Marlon Lorenzo Arenas y Anthony Lopez Crizanto",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 264,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Concentración",
+            "hora": "06:30:00",
+            "direccion": "Jr. San Martín 1775",
+            "oferente": "Fam. Gamarra Garay y Fam. Garay Evaristo",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 265,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Misa",
+            "hora": "08:00:00",
+            "direccion": "Jr. Huallayco 1582",
+            "oferente": "Parroquia \"Nuestra Señora del Patrocinio\"",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 266,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Traslado del Niño",
+            "hora": "09:00:00",
+            "direccion": "Psje. las Américas - Jr. Ayacucho Cdra. 5",
+            "oferente": "Hnos. Calderón Aliaga y Familia",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 267,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Visita",
+            "hora": "11:30:00",
+            "direccion": "Jr. Leoncio Prado 1753",
+            "oferente": "Local \"El Punto 27\"",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 268,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Almuerzo",
+            "hora": "14:00:00",
+            "direccion": "Jr. San Martín 1775",
+            "oferente": "Fam. Gamarra Garay y Fam. Garay Evaristo",
+            "tipo_oferente": "Mayordomo"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 269,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Visita",
+            "hora": "17:00:00",
+            "direccion": "Jr. San Martín 1652",
+            "oferente": "Fam. Flores Fernandez",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 270,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Entrega del trucay",
+            "hora": "19:30:00",
+            "direccion": "Jr. San Martín 1775",
+            "oferente": "Hnos. Calderón Aliaga y Familia",
+            "tipo_oferente": "Oferente"
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 271,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Despedida",
+            "hora": "20:30:00",
+            "direccion": "Jr. Huallayco 1582",
+            "oferente": "",
+            "tipo_oferente": ""
+        }
+    },
+    {
+        "model": "Cuadrillas.cronogramas",
+        "pk": 272,
+        "fields": {
+            "cofradia": 27,
+            "fecha": "2024-01-08",
+            "dia": "3er Día",
+            "evento": "Cena",
+            "hora": "21:30:00",
+            "direccion": "Jr. San Martín 1775",
+            "oferente": "Fam. Gamarra Garay y Fam. Garay Evaristo",
+            "tipo_oferente": "Mayordomo"
+        }
+    }
+]

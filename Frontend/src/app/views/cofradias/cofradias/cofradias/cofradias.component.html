@@ -1,0 +1,85 @@
+<!-- component -->
+<section class="bg-cover bg-center w-full pb-24 pt-16"
+style="background-image: url('{{'assets/img/fondo/fondo.jpg'}}');">
+<!-- <div class="absolute h-[115vh] lg:h-[150vh] inset-0 py-12 bg-black bg-opacity-70 group-hover:opacity-75 transition duration-300 ease-in-out"></div> 
+ --><!-- component -->
+    <div class="flex items-center justify-center min-h-screen">
+        <div class="flex flex-col w-full py-24 p-6 absolute md:px-36 lg:px-48">
+            <div class="relative h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center pb-2">
+                <h3 class="text-center w-[60vw] md:w-[40vw] lg:w-[40vw]">
+                    <a href="#" class="text-white text-2xl font-bold text-center" >
+                        <span class="absolute inset-0"></span>
+                        <img class="pt-5 h-30 w-full lg:h-25 " src="{{ 'assets/img/logo_gatilindigital_conbolitas.png' }}" />
+                        <h2 class="pb-6 text-2xl text-center font-extrabold text-white">Cofradías 2024</h2>
+                    </a>
+                </h3>
+            </div>
+            <div class="flex flex-col relative">
+                <div class="absolute flex items-center justify-center h-10 w-10 left-0 top-0">
+                    <svg class="h-6 w-6 text-black" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div>
+                    <input class="pl-10 rounded h-10 w-full focus:outline-none bg-white focus:bg-gray-100 text-black" 
+                        placeholder="Cofradia ..." type="text"  [(ngModel)]="busqueda" />
+                </div>
+            </div><br>
+            <div class="flex flex-row relative text-center">
+                <button 
+                (click)="activas()"
+                class={{activasClass}}>Cofradías Del Día</button>
+                <button 
+                (click)="todas()"
+                class={{todasClass}}>Todas las Cofradias</button>
+            </div>
+            <ul class="flex flex-col mt-4 space-y-2 overflow-y-auto" style="height:60vh" id="activas">
+                @for (cofradia of (showActive ? cofradiasActivas() : filtrarCofradias()); track cofradia.id) {
+                    @if (cofradia.nombre_completo != "null"){
+                        <li class="flex flex-row items-center relative  rounded">
+                            <!-- component bg-gradient-to-r from-sky-400 to-sky-700 hover:from-blue-700 hover:to-blue-900
+                                [style.background]="getDynamicBackground(cofradia.color)"
+                                -->      
+                            <div class="mx-auto container">
+                                <div class="w-full flex justify-center">
+                                    <div [style.background-color]="asignarColor(cofradia.id)" 
+                                        class="bg-gradient-to-r hover:from-amber-400 hover:to-amber-500 w-full p-4">
+                                        <a href="cofradia-detalle">
+                                            <div (click)="selectCofradia(cofradia.id)" class="flex flex-wrap items-between md:flex-row flex-col-reverse">
+                                                <div class="md:w-2/3 w-full p-2 flex-col md:block flex items-between justify-between">
+                                                    <div>
+                                                        <h2 role="heading" class="text-xl md:text-xl lg:text-2xl xl:text-2xl lg:w-10/12 text-white font-semibold 
+                                                            leading-6 lg:leading-10 md:text-left text-bejustify-between">
+                                                            @if(!showActive){
+                                                                {{cofradia.id}}. 
+                                                            }{{cofradia.nombre_completo}}
+                                                        </h2>
+                                                        
+                                                        <div class="col-span-4">
+                                                            @if (cofradia.distrito != null){
+                                                                <p class="text-white/80"> Distrito: {{
+                                                                    cofradia.distrito.charAt(0).toUpperCase() 
+                                                                    + cofradia.distrito.slice(1).toLocaleLowerCase()}} 
+                                                                </p>
+                                                            }
+                                                            @if (cofradia.fecha_fundacion != null){
+                                                                <p class="text-white/70 "> Fundado el: {{cofradia.fecha_fundacion}} </p>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+
+<a href="/home" class="btn-flotante"><img class="h-10 w-12
+    md:h-16 md:w-24" src="{{ 'assets/img/icos/fle1.png' }}"></a>

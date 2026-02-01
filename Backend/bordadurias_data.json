@@ -1,0 +1,132 @@
+[
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 1,
+        "fields": {
+            "ruc_bordaduria": "10800016881",
+            "razon_soc_bordaduria": "Bordaduría Santa Cruz",
+            "direccion_bordaduria": "Av. Esteban Pavletich Mz. D  Lt.2 San Luis Sector 4",
+            "web_bordaduria": "https://www.facebook.com/bordaduria.cruz",
+            "representante_bordaduria": "Joel Santa cruz Suarez",
+            "celular_bordaduria": "927711083",
+            "nombre_bordaduria": "Bordaduría Santa Cruz"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 2,
+        "fields": {
+            "ruc_bordaduria": "10427504218",
+            "razon_soc_bordaduria": "Bordaduría Manuelito",
+            "direccion_bordaduria": "Av. Esteban Pavletich Km 4. Ref. Alt. Paradero 9",
+            "web_bordaduria": "https://www.facebook.com/bordados.manuelitos",
+            "representante_bordaduria": "José Luis Manuel Nieto",
+            "celular_bordaduria": "993074684",
+            "nombre_bordaduria": "Bordaduría Manuelito"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 3,
+        "fields": {
+            "ruc_bordaduria": "10224861503",
+            "razon_soc_bordaduria": "Bordaduía Corona del Inca",
+            "direccion_bordaduria": "Av. Esteban Pavletich 527. Ref. Alt. Paradero 9",
+            "web_bordaduria": "https://www.facebook.com/clerigos.venturacasimiro",
+            "representante_bordaduria": "Clérigos Ventura Casimiro",
+            "celular_bordaduria": "992273053",
+            "nombre_bordaduria": "Bordaduía Corona del Inca"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 4,
+        "fields": {
+            "ruc_bordaduria": "10229877998",
+            "razon_soc_bordaduria": "Bordaduría Fátima",
+            "direccion_bordaduria": "Av. Esteban Pavletich Km 3.5. Ref. Alt. Paradero 8",
+            "web_bordaduria": "-",
+            "representante_bordaduria": "Viviana Tucto Salas",
+            "celular_bordaduria": "962985198",
+            "nombre_bordaduria": "Bordaduría Fátima"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 5,
+        "fields": {
+            "ruc_bordaduria": "10462742831",
+            "razon_soc_bordaduria": "Artesanía y Bordados Huánuco",
+            "direccion_bordaduria": "Av. Esteban Pavletich 500. Ref. Alt. Paradero 9",
+            "web_bordaduria": "https://www.facebook.com/profile.php?id=100086606072558",
+            "representante_bordaduria": "Deysi Ramírez Japa",
+            "celular_bordaduria": "951744748",
+            "nombre_bordaduria": "Artesanía y Bordados Huánuco"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 6,
+        "fields": {
+            "ruc_bordaduria": "10419239629",
+            "razon_soc_bordaduria": "Bordaduría Albornoz",
+            "direccion_bordaduria": "Av. Esteban Pavletich 345. Ref. Alt. Paradero 4",
+            "web_bordaduria": "https://www.facebook.com/bordaduria.albornoz.14",
+            "representante_bordaduria": "Joel Albornoz Cori",
+            "celular_bordaduria": "952085308",
+            "nombre_bordaduria": "Bordaduría Albornoz"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 7,
+        "fields": {
+            "ruc_bordaduria": "10040424267",
+            "razon_soc_bordaduria": "Bordaduría Ortiz",
+            "direccion_bordaduria": "Av. Esteban Pavletich 337. Ref. Alt. Paradero 3",
+            "web_bordaduria": "https://www.facebook.com/bodaduriasastreria.ortiz",
+            "representante_bordaduria": "Erlandez Ortiz S.",
+            "celular_bordaduria": "962076778",
+            "nombre_bordaduria": "Bordaduría Ortiz"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 8,
+        "fields": {
+            "ruc_bordaduria": "10459571651",
+            "razon_soc_bordaduria": "Bordaduría San Cristobal",
+            "direccion_bordaduria": "Av. Esteban Pavletich Km 3. Ref. Alt. Paradero 3",
+            "web_bordaduria": "-",
+            "representante_bordaduria": "Durand Vara Jerson Emer",
+            "celular_bordaduria": "990003624",
+            "nombre_bordaduria": "Bordaduría San Cristobal"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 9,
+        "fields": {
+            "ruc_bordaduria": "10474307145",
+            "razon_soc_bordaduria": "Bordaduría Niño Jesús",
+            "direccion_bordaduria": "Av. Esteban Pavletich Km 3. Ref. Alt. Paradero 4",
+            "web_bordaduria": "-",
+            "representante_bordaduria": "Fernando Alfredo Aguirre Valdivia",
+            "celular_bordaduria": "937614190",
+            "nombre_bordaduria": "Bordaduría Niño Jesús"
+        }
+    },
+    {
+        "model": "Cuadrillas.bordadurias",
+        "pk": 10,
+        "fields": {
+            "ruc_bordaduria": "10000000001",
+            "razon_soc_bordaduria": "Bordaduría Textil Señor de Burgos",
+            "direccion_bordaduria": "Av. Esteban Pavletich #600. Ref. Alt. Paradero 3",
+            "web_bordaduria": "https://www.facebook.com/profile.php?id=100077403544274",
+            "representante_bordaduria": "Marco Jara Casimiro",
+            "celular_bordaduria": "988230632",
+            "nombre_bordaduria": "Bordaduría Textil Señor de Burgos"
+        }
+    }
+]
